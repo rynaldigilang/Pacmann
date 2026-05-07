@@ -56,7 +56,7 @@ SELECT
     END AS CHANNEL,
 
     -- Activation flags from reseller and parent hierarchy.
-    ACTIVATED,
+    ACTIVATED AS RESELLER_ACTIVATED,
     PARENT_RESELLER_ACTIVATED,
 
     -- Effective date of reseller record (SCD reference point).
